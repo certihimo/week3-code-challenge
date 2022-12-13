@@ -1,5 +1,5 @@
 function fetchFilms() {
-    fetch('http://localhost:3000/films')
+    fetch('https://api.npoint.io/1e77e2b3a524e94aea30/films/')
       .then(res => res.json())
       .then(data => renderFilms(data));
 }
